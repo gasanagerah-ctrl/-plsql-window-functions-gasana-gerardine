@@ -46,8 +46,21 @@ WINDOW FUNCTION & their purpose
 STEP 3 DATABASE SCHEMA 
 -on step 3 we will create 3 related tables link then wit foreign keys and add some values to achieve the criteria and get te result about the functionality and data flow of loyal bar-resto
 
+
+...tables will be included
+
+-customer :customer_id,name,region
+
+-products:products_id,name,category
+
+-transaction:transaction_id,customer_id,product_id,sale_date,amount
+
 STEP 4 WINDOW FUNCTIONS IMPLEMETATION
 -We will implement all 4 categories(Ranking,Aggregate,Natigation,Distribution)
 
 
 OTHER SCREENSHOT & QUERIES WILL BE LINKED IN THEIR RESPECTIVE FORDER (SQL AND SCREENSHOT)
+
+REFERENCES:
+-Oracle help center
+-stack overflow
